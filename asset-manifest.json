@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/salondivine/static/css/main.073c9b0a.css",
-    "main.js": "/salondivine/static/js/main.fff8ba53.js",
+    "main.js": "/salondivine/static/js/main.2071412d.js",
     "static/js/787.58e947b0.chunk.js": "/salondivine/static/js/787.58e947b0.chunk.js",
     "static/media/logo.svg": "/salondivine/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/salondivine/index.html",
     "main.073c9b0a.css.map": "/salondivine/static/css/main.073c9b0a.css.map",
-    "main.fff8ba53.js.map": "/salondivine/static/js/main.fff8ba53.js.map",
+    "main.2071412d.js.map": "/salondivine/static/js/main.2071412d.js.map",
     "787.58e947b0.chunk.js.map": "/salondivine/static/js/787.58e947b0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.fff8ba53.js"
+    "static/js/main.2071412d.js"
   ]
 }
