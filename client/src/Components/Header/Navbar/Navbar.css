@@ -1,0 +1,132 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ee9a9a;
+    padding: 1rem 3rem;
+    position: relative;
+}
+.n-left {
+    padding: 0 1rem 0 1rem;
+    align-items: center;
+    display: flex;
+    gap :2rem;
+    color: #000000;
+}
+
+.cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color:black;
+    font-size: 28px; /* set the font size of the icon */
+    margin-right: 10px; /* add some margin to the right of the icon */
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.salonname{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+}
+.navbar-logo {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-burger {
+    display: block;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.navbar-burger span {
+    background-color: #000000;
+    display: block;
+    height: 2px;
+    margin: 5px 0;
+    width: 25px;
+}
+
+.navbar-menu {
+    position: static;
+    top: 100%;
+    left: 0;
+    display: none;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    padding: 1rem;
+    width: 100%;
+}
+
+.navbar-menu.is-active {
+    display: flex;
+}
+
+.navbar-item {
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-decoration: none;
+}
+
+.navbar-item:hover{
+    color: #000000;
+    font-weight: bold;
+}
+
+.navbar-logo:hover{
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1200px) {
+    .navbar-burger {
+        display: none;
+    }
+
+    .navbar-menu {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        padding: 0;
+        width: auto;
+    }
+
+    .navbar-item {
+        margin: 0 1rem;
+        color: #000000;
+        font-size: 1.2rem;
+    }
+
+    .salonname {
+        padding: 0 30px;
+        font-size: 2.5rem;
+        gap :5rem;
+    }
+
+}

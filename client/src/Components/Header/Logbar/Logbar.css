@@ -1,0 +1,79 @@
+.log {
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    background-color: #FDF5E8;
+
+}
+.log .l-left{
+    font-size: 0.8rem;
+}
+.Logbutton l-text1  {
+    text-decoration: none;
+    padding-right: 20px;
+}
+.Logbutton l-text2  {
+    font-size: 1rem;
+    text-decoration: none;
+    padding-left: 20px;
+}
+.Logbutton button{
+    padding: 0 10px;
+    font-size: 1rem;
+    text-align: center;
+    background-color: rgba(180, 32, 211, 0.96);
+    color: #ffffff;
+    border: none;
+    border-radius: 0.6rem;
+    cursor: pointer;
+
+}
+.logbar-item{
+    color: #000000;
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    padding-right: 30px;
+    text-decoration: none;
+}
+.Logbutton button:hover {
+    background-color: #ee9a9a;
+}
+
+
+.l-left>ul{
+    display: flex;
+    gap: 6rem;
+}
+.Logoutbutton{
+    background-color: rgba(180, 32, 211, 0.96);
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.loginl{
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ffffff;
+}
+
+.logbar-item :hover {
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1200px) {
+    .logbar-item{
+        font-size: 1.1rem;
+    }
+    .logbar-item button{
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+    }
+    .loginl{
+        font-size: 1.1rem;
+    }
+    .Logbutton l-text1  {
+        font-size: 1rem;
+    }
+}

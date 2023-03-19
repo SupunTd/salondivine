@@ -1,0 +1,115 @@
+.about-us {
+    position: relative;
+}
+
+
+
+.about-us h1 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    animation-name: zoomIn;
+    animation-duration: 1s;
+}
+
+.about-us p {
+    font-size: 1rem;
+    padding: 0 1rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+}
+
+.about-us h2 {
+    font-size: 36px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.customer-comments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.customer-comment {
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    animation-name: fadeIn;
+    animation-duration: 2s;
+}
+
+.customer-comment p {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.customer-comment span {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    display: block;
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+        transform :scale(1);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-us h1 {
+        font-size: 3rem;
+        margin-bottom: 30px;
+    }
+
+    .customer-comment {
+        max-width: 400px;
+        margin: 20px;
+        padding: 20px;
+        border-radius: 5px;
+        animation-duration: 2s;
+    }
+
+    .customer-comment p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .customer-comment span {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+}

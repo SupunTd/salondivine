@@ -1,0 +1,126 @@
+.HomePage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    width: 100%;
+    background-color: #f8eaea;
+    top: 0;
+    left: 0;
+    bottom: 1rem;
+}
+
+.Services {
+    flex: 1;
+    margin-right: 2rem;
+    text-align: center;
+}
+
+.ServicesHeader {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.ServicesDescription {
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.ServicesIcons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ServiceIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 2rem;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    transition: all 0.2s ease-in-out;
+}
+
+.ServiceIcon:hover {
+    transform: scale(1.1);
+}
+
+.ServiceIcon.Selected {
+    border: 2px solid #f00;
+}
+
+
+
+.ServiceIcon p {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.ServiceDetails {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ServiceDetails img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 1.5rem;
+}
+
+.ServiceDetails h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.ServiceDetails p {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+@media screen and (min-width: 1200px) {
+    .HomePage {
+        padding: 2rem 6rem;
+    }
+    .ServiceIcon {
+        width: 120px;
+        height: 120px;
+        border-radius: 20%;
+    }
+
+    .ServiceDetails img {
+        max-width: 300px;
+        max-height: 300px;
+        margin-bottom: 2rem;
+    }
+    .ServicesDescription {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    .ServicesHeader {
+        font-size: 2rem;
+    }
+    .ServiceDetails h3 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+    .ServiceDetails p {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+}

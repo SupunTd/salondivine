@@ -1,0 +1,50 @@
+.appointment-button {
+    margin-top: auto;
+    display: flex;
+    justify-content: center; /* center the button horizontally */
+    align-items: center; /* center the button vertically */
+    position: relative; /* set the parent element to position: relative */
+}
+.OverlayLine {
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffb9b9;
+    bottom: 0; /* position the line at the bottom of the parent element */
+}
+
+.Button {
+    position: relative;
+    background-color: rgba(180, 32, 211, 0.96);
+    z-index: 1;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    box-shadow: 2px 2px 5px #ccc;
+    text-decoration: none;
+}
+.makeap{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.appointment-button button:hover {
+    background-color: #ff0062;
+    transform: scale(1.1);
+}
+
+@media screen and (min-width: 1200px) {
+    .appointment-button .makeap {
+        font-size: 2rem;
+    }
+    .appointment-button {
+    }
+}
