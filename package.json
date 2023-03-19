@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "concurrently \"cd client && npm start\" \"cd server && npm start\""
+},
+  "homepage": "https://SupunTd.github.io/salondivine",
+  "name": "salondivine",
+  "version": "1.0.0",
+  "author": "Supun Thilakshana",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^7.6.0"
+  }
+}
